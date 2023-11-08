@@ -49,5 +49,5 @@ Welcome to my repository containing solutions for various programming exercises 
 - 9.1. Lab
 - 9.2. Exercise
 
-## More Exercises
+#### More Exercises
 - Additional exercises for further practice and learning.
