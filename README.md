@@ -13,39 +13,39 @@ Welcome to my repository containing solutions for various programming exercises 
 - [Text Processing](#text-processing)
 - [Regular Expressions](#regular-expressions)
 
-### Basic Syntax, Conditional Statements and Loops
+### 1. Basic Syntax, Conditional Statements and Loops
 - 1.1. Lab
 - 1.2. Exercise
 
-### Data Types and Variables
+### 2. Data Types and Variables
 - 2.1. Lab
 - 2.2. Exercise
 
-### Arrays
+### 3. Arrays
 - 3.1. Lab
 - 3.2. Exercise
 
-### Methods
+### 4. Methods
 - 4.1. Lab
 - 4.2. Exercise
 
-### Lists
+### 5. Lists
 - 5.1. Lab
 - 5.2. Exercise
 
-### Objects and Classes
+### 6. Objects and Classes
 - 6.1. Lab
 - 6.2. Exercise
 
-### Maps, Lambda and Stream API
+### 7. Maps, Lambda and Stream API
 - 7.1. Lab
 - 7.2. Exercise
 
-### Text Processing
+### 8. Text Processing
 - 8.1. Lab
 - 8.2. Exercise
 
-### Regular Expressions
+### 9. Regular Expressions
 - 9.1. Lab
 - 9.2. Exercise
 
