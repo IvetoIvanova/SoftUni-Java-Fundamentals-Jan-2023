@@ -3,15 +3,15 @@ Welcome to my repository containing solutions for various programming exercises 
 
 ## Course Sections
 
-- [1. Basic Syntax, Conditional Statements and Loops](#basic-syntax-conditional-statements-and-loops)
-- [2. Data Types and Variables](#data-types-and-variables)
-- [3. Arrays](#arrays)
-- [4. Methods](#methods)
-- [5. Lists](#lists)
-- [6. Objects and Classes](#objects-and-classes)
-- [7. Maps, Lambda and Stream API](#maps-lambda-and-stream-API)
-- [8. Text Processing](#text-processing)
-- [9. Regular Expressions](#regular-expressions)
+- [1. Basic Syntax, Conditional Statements and Loops](#1-basic-syntax-conditional-statements-and-loops)
+- [2. Data Types and Variables](#2-data-types-and-variables)
+- [3. Arrays](#3-arrays)
+- [4. Methods](#4-methods)
+- [5. Lists](#5-lists)
+- [6. Objects and Classes](#6-objects-and-classes)
+- [7. Maps, Lambda and Stream API](#7-maps-lambda-and-stream-API)
+- [8. Text Processing](#8-text-processing)
+- [9. Regular Expressions](#9-regular-expressions)
 - [More Exercises](#more-exercises)
 
 ### 1. Basic Syntax, Conditional Statements and Loops
