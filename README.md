@@ -3,7 +3,7 @@ Welcome to my repository containing solutions for various programming exercises 
 
 ## Course Sections
 
-- [Basic Syntax, Conditional Statements and Loops](./1.%20BasicSyntaxConditionalStatementsAndLoops)
+- [Basic Syntax, Conditional Statements and Loops](./1.%20BasicSyntaxConditionalStatementsAndLoops/)
 - [Data Types and Variables](#2-data-types-and-variables)
 - [Arrays](#3-arrays)
 - [Methods](#4-methods)
