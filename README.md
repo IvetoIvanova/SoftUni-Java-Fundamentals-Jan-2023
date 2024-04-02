@@ -3,16 +3,16 @@ Welcome to my repository containing solutions for various programming exercises 
 
 ## Course Sections
 
-- [Basic Syntax, Conditional Statements and Loops](#1-basic-syntax-conditional-statements-and-loops)
-- [Data Types and Variables](#2-data-types-and-variables)
-- [Arrays](#3-arrays)
-- [Methods](#4-methods)
-- [Lists](#5-lists)
-- [Objects and Classes](#6-objects-and-classes)
-- [Maps, Lambda and Stream API](#7-maps-lambda-and-stream-API)
-- [Text Processing](#8-text-processing)
-- [Regular Expressions](#9-regular-expressions)
-- [More Exercises](#more-exercises)
+- [Basic Syntax, Conditional Statements and Loops](./src/1.%20BasicSyntaxConditionalStatementsAndLoops/)
+- [Data Types and Variables](./src/2.%20DataTypesAndVariables/)
+- [Arrays](./src/3.%20Arrays/)
+- [Methods](./src/4.%20Methods/)
+- [Lists](./src/5.%20Lists/)
+- [Objects and Classes](./src/6.%20ObjectsAndClasses/)
+- [Maps, Lambda and Stream API](./src/7.%20MapsLambdaAndStreamAPI/)
+- [Text Processing](./src/8.%20TextProcessing/)
+- [Regular Expressions](./src/9.%20RegularExpressions/)
+- [More Exercises](./src/MoreExercises/)
 
 ### 1. Basic Syntax, Conditional Statements and Loops
 - 1.1. Lab
