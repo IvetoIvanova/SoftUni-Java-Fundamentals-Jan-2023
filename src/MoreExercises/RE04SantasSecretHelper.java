@@ -11,7 +11,7 @@ public class RE04SantasSecretHelper {
         int key = Integer.parseInt(scanner.nextLine());
 
         String input = scanner.nextLine();
-        Pattern pattern = Pattern.compile("@(?<name>[A-Za-z]+)[^@\\-!:>]*!(?<behavior>[G])!");
+        Pattern pattern = Pattern.compile("@(?<name>[A-Za-z]+)[^@\\-!:>]*!(?<behavior>G)!");
         while (!input.equals("end")) {
             StringBuilder decryptedMessage = new StringBuilder();
             for (int i = 0; i < input.length(); i++) {
