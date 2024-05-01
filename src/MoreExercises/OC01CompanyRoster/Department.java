@@ -17,7 +17,6 @@ public class Department {
     }
 
     public double averageSalary() {
-        if (employees.isEmpty()) return 0;
         double totalSalary = 0;
         for (Employee employee : employees) {
             totalSalary += employee.salary;

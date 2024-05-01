@@ -15,12 +15,23 @@ public class Main {
             double salary = Double.parseDouble(employeeInfo[1]);
             String position = employeeInfo[2];
             String departmentName = employeeInfo[3];
-            String email = (employeeInfo.length > 4) ? employeeInfo[4] : null;
-            int age = (employeeInfo.length > 5) ? Integer.parseInt(employeeInfo[5]) : -1;
+            String email = "n/a";
+            int age = -1;
+            if (employeeInfo.length > 4) {
+                email = employeeInfo[4];
+                if (!email.contains("@")) {
+                    age = Integer.parseInt(email);
+                    email = "n/a";
+                }
+            }
+            if (employeeInfo.length > 5) {
+                age = Integer.parseInt(employeeInfo[5]);
+            }
 
             Employee employee = new Employee(name, salary, position, departmentName, email, age);
 
-            departments.computeIfAbsent(departmentName, Department::new).addEmployee(employee);
+            departments.putIfAbsent(departmentName, new Department(departmentName));
+            departments.get(departmentName).addEmployee(employee);
         }
 
         double maxAverageSalary = Double.MIN_VALUE;
@@ -34,11 +45,11 @@ public class Main {
             }
         }
 
-        departments.get(departmentWithMaxSalary).employees.sort((e1, e2) -> Double.compare(e2.salary, e1.salary));
-        System.out.printf("Highest Average Salary: %s%n", departmentWithMaxSalary);
+        System.out.println("Highest Average Salary: " + departmentWithMaxSalary);
 
-        for (Employee employee : departments.get(departmentWithMaxSalary).employees) {
-            System.out.println(employee);
-        }
+        departments.get(departmentWithMaxSalary).employees.stream()
+                .sorted(Comparator.comparingDouble(e -> -e.salary))
+                .forEach(employee -> System.out.printf("%s %.2f %s %d%n",
+                        employee.name, employee.salary, employee.email, employee.age));
     }
 }

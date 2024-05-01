@@ -16,9 +16,4 @@ public class Employee {
         this.email = email;
         this.age = age;
     }
-
-    @Override
-    public String toString() {
-        return String.format("%s %.2f %s %d", name, salary, (email != null ? email : "n/a"), (age != -1 ? age : -1));
-    }
 }
